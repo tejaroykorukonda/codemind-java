@@ -2,27 +2,20 @@ import java.util.Scanner;
 class num
 {
     public static void main(String arg[]){
-    int n,i,j,k;
+    int n,i,j;
     Scanner sc=new Scanner(System.in);
     n=sc.nextInt();
-    for(i=n;i>=1;i--)
+    for(i=1;i<=n;i++)
     {
-        for(j=1;j<i;j++)
+        for(j=1;j<=n-2;j++)
         {
-            System.out.print(" ");
+            System.out.print(j);
         }
-        for(k=1;k<=n;k++)
+        for(j=n-3;j>=1;j--)
         {
-            if(i==1||i==n||k==1||k==n)
-            {
-                 System.out.print("*");
-            }
-            else
-            {
-                 System.out.print(" ");
-            }
+            System.out.print(j);
         }
-         System.out.println();
+        System.out.println();
     }
-}
+    }
 }
