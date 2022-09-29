@@ -9,16 +9,16 @@ class num
     {
         for(j=1;j<=n;j++)
         {
-            if(i==j)
+            if(j==1||i==j||i==n)
             {
-                System.out.print("0");
+                System.out.print("*");
             }
             else
             {
-                System.out.print("x");
+                 System.out.print(" ");
             }
         }
-        System.out.println();
+         System.out.println("");
     }
 }
 }
