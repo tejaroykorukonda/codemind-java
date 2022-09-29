@@ -11,7 +11,7 @@ class num
         {
             System.out.print(j);
         }
-        for(j=n-3;j>=1;j--)
+        for(j=1;j<n-2;j++)
         {
             System.out.print(j);
         }
